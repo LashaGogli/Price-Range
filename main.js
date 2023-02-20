@@ -11,6 +11,7 @@ let filter = document.querySelector("#filter");
 
 
 
+
 filter.addEventListener("click", function () {
     container.innerHTML = '';
     let filtered = products.filter((n) => n[1] >= Min.value && n[1] <= Max.value);
